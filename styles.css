@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #00da86, #dc11f79f);
+}
+
+.music-player {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+.music-info {
+    margin-bottom: 20px;
+}
+
+.music-info img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.music-info h2, .music-info p {
+    margin: 5px 0;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    margin: 0 10px;
+    position: relative;
+}
+
+#progress {
+    width: 0;
+    height: 100%;
+    background: #1db954;
+    border-radius: 5px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.controls button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.controls button img {
+    width: 30px;
+    height: 30px;
+}
+
+#play-icon {
+    width: 50px;
+    height: 50px;
+}
